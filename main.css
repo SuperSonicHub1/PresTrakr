@@ -1,8 +1,9 @@
 body {
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  background-color: green;
-  color: white;
+  background-color: white;
+  color: black;
+  font-size: 100%;
   }
   
   ul {
@@ -15,9 +16,23 @@ body {
   .list {
     list-style: square;
   }
+
+  #navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  /*https://www.w3schools.com/css/css_navbar.asp*/ 
   
+  .rectangle {
+    height: 50px;
+    width: 100%;
+    background-color: #707070;
+  }
+
   #date {
-    font-size: 12px;
-    font-style: italic;
-    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.125em;
+    font-style: regular;
+    font-weight: 300; 
   }
