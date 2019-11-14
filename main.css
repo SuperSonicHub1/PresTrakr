@@ -16,37 +16,12 @@ body {
   .list {
     list-style: square;
   }
-
-  .navul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #009577;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  }
-  .navli {
-    float: left;
-  }
-  .navli a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  /* Change the link color to #111 (black) on hover */
-  .navli a:hover {
-    background-color: #008466;
-  }
-  /*https://www.w3schools.com/css/css_navbar.asp*/ 
-  
+ 
   .rectangle {
     height: 50px;
     width: 100%;
     background-color: #707070;
+    bottom: 0;
   }
 
   #date {
