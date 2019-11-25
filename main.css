@@ -3,36 +3,32 @@ body {
   text-align: center;
   background-color: white;
   color: black;
-  font-size: 100%;
-  }
-  
-  ul {
-    font-family: 'Open Sans', sans-serif;
-  }
-  li {
-    list-style: circle;
-  }
-  
-  .list {
-    list-style: square;
-  }
- 
-  .rectangle {
-    height: 50px;
-    width: 100%;
-    background-color: #707070;
-    bottom: 0;
   }
 
-  #date {
-    font-family: 'Roboto', sans-serif;
-    font-size: 3.125em;
-    font-style: regular;
-    font-weight: 300; 
+#timer{font-size: 200%;}
+#date {font-size: 200%;}
+
+#button {transition: transform .2s;}
+#button:hover {
+	opacity: 0.6;
+	transform: scale(1.1);
+	}
+
+.banner {
+  width: 700px;
+  height: 400px;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px 5px #777777;
+  margin: 10px auto 10px auto;
+  color: hsla(0,0%,0%,0);
   }
-  .date {
-    font-family: 'Roboto', sans-serif;
-    font-size: 3.125em;
-    font-style: regular;
-    font-weight: 300; 
-  }
+.banner:hover {color: hsla(0,0%,0%,1);}
+
+.bannertext {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.0em;
+  z-index: 10;
+}
